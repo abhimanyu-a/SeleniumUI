@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19610" started-at="2019-08-18T05:43:46Z" finished-at="2019-08-18T05:44:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19610" started-at="2019-08-18T05:43:46Z" finished-at="2019-08-18T05:44:05Z">
+      <class name="com.Selenium.DriverTest">
+        <test-method status="PASS" signature="GlobalSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Selenium.DriverTest@1068e947]" name="GlobalSearch" duration-ms="6706" started-at="2019-08-18T05:43:46Z" data-provider="search" finished-at="2019-08-18T05:43:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//input[@name='q']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Alchemist]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GlobalSearch -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.Selenium.DriverTest@1068e947]" name="CloseBrowser" is-config="true" duration-ms="2116" started-at="2019-08-18T05:43:53Z" finished-at="2019-08-18T05:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="GlobalSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Selenium.DriverTest@1068e947]" name="GlobalSearch" duration-ms="7817" started-at="2019-08-18T05:43:55Z" data-provider="search" finished-at="2019-08-18T05:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.bing.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//input[@name='q']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Alchemist]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GlobalSearch -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.Selenium.DriverTest@1068e947]" name="CloseBrowser" is-config="true" duration-ms="2325" started-at="2019-08-18T05:44:03Z" finished-at="2019-08-18T05:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.Selenium.DriverTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
