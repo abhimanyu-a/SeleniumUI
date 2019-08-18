@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19610" started-at="2019-08-18T05:43:46Z" finished-at="2019-08-18T05:44:05Z">
+  <suite name="Suite" duration-ms="21069" started-at="2019-08-18T06:59:46Z" finished-at="2019-08-18T07:00:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19610" started-at="2019-08-18T05:43:46Z" finished-at="2019-08-18T05:44:05Z">
+    <test name="Test" duration-ms="21069" started-at="2019-08-18T06:59:46Z" finished-at="2019-08-18T07:00:07Z">
       <class name="com.Selenium.DriverTest">
-        <test-method status="PASS" signature="GlobalSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Selenium.DriverTest@1068e947]" name="GlobalSearch" duration-ms="6706" started-at="2019-08-18T05:43:46Z" data-provider="search" finished-at="2019-08-18T05:43:53Z">
+        <test-method status="PASS" signature="GlobalSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Selenium.DriverTest@7e0b0338]" name="GlobalSearch" duration-ms="7531" started-at="2019-08-18T06:59:47Z" data-provider="search" finished-at="2019-08-18T06:59:54Z">
           <params>
             <param index="0">
               <value>
@@ -28,11 +28,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GlobalSearch -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.Selenium.DriverTest@1068e947]" name="CloseBrowser" is-config="true" duration-ms="2116" started-at="2019-08-18T05:43:53Z" finished-at="2019-08-18T05:43:55Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.Selenium.DriverTest@7e0b0338]" name="CloseBrowser" is-config="true" duration-ms="2333" started-at="2019-08-18T06:59:54Z" finished-at="2019-08-18T06:59:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method status="PASS" signature="GlobalSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Selenium.DriverTest@1068e947]" name="GlobalSearch" duration-ms="7817" started-at="2019-08-18T05:43:55Z" data-provider="search" finished-at="2019-08-18T05:44:03Z">
+        <test-method status="PASS" signature="GlobalSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Selenium.DriverTest@7e0b0338]" name="GlobalSearch" duration-ms="8256" started-at="2019-08-18T06:59:57Z" data-provider="search" finished-at="2019-08-18T07:00:05Z">
           <params>
             <param index="0">
               <value>
@@ -53,11 +53,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GlobalSearch -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.Selenium.DriverTest@1068e947]" name="CloseBrowser" is-config="true" duration-ms="2325" started-at="2019-08-18T05:44:03Z" finished-at="2019-08-18T05:44:05Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.Selenium.DriverTest@7e0b0338]" name="CloseBrowser" is-config="true" duration-ms="2123" started-at="2019-08-18T07:00:05Z" finished-at="2019-08-18T07:00:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- com.Selenium.DriverTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

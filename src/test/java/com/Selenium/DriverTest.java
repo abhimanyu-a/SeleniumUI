@@ -36,7 +36,7 @@ public class DriverTest extends BaseTest {
 
 	@AfterMethod()
 	public void CloseBrowser() {
-		driver.close();
+		driver.quit();
 	}
 
 }
