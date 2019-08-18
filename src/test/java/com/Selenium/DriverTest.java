@@ -14,9 +14,8 @@ import com.Selenium.Utilities.TestListener;
 
 @Listeners(TestListener.class)
 public class DriverTest extends BaseTest {
-	int waitTime = 5;
+	int waitTime = 10;
 	WebDriverWait wait;
-
 
 	@Test(dataProvider = "search")
 	public void GlobalSearch(String url, String searchID, String textToSearch) throws IOException {
